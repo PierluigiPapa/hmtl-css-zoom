@@ -40,14 +40,14 @@ header {
 
 /* MAIN */
 
-main .container {
+main {
     border: 10px red solid;
 
     height: 70vh;
 
 }
 
-.container {
+main .container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -56,21 +56,6 @@ main .container {
 
     margin: 0 auto;
     padding: 20px;
-}
 
-ul {
-    list-style-type: none;
-}
-
-li {
-    margin-right: 10px;
-}
-
-a {
-    text-decoration: none;
-
-}
-
-span {
-    color: white;
+    gap: 5px;
 }
