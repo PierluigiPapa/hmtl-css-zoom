@@ -95,7 +95,7 @@ footer {
     border: 1px solid white;
 }
 
-.footer-nav {
+#footer-nav {
     display: flex;
     justify-content: flex-start;
     padding: 10px 15px;
@@ -105,14 +105,15 @@ footer {
 }
 
 
-.footer-nav .left .micro-video {
+#footer-nav .left .micro-video {
     display: flex;
     flex-direction: row;
     /* border: 1px solid green; */
     padding: 10px;
 }
 
-footer.nav {
-    justify-content: center;
+#footer-nav .left .micro-video .text{
+    flex-direction: column;
 }
+
 
