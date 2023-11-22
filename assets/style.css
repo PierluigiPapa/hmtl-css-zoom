@@ -6,11 +6,11 @@
 
 body {
     font-family: sans-serif;
-    background-color: lightseagreen;
+    background-color: black;
 
     height: 100vh;
 
-    border: 5px dashed white;
+    /* border: 5px dashed white; */
 }
 
 /* HEADER */
@@ -41,21 +41,47 @@ header {
 /* MAIN */
 
 main {
-    border: 10px red solid;
+    /* border: 10px red solid; */
 
     height: 70vh;
 
 }
 
-main .container {
+
+
+#container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
 
-    position: relative;
 
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
 
     gap: 5px;
+
+    padding-inline: 5%;
+}
+
+#container .row {
+    position: relative;
+
+    /* border: 5px solid black; */
+}
+
+.row {
+    width: 100%;
+    height: ;
+}
+
+.pokemon {
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    color: white;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3px;
+
+    border: none;
 }
