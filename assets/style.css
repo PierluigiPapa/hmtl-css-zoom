@@ -6,9 +6,10 @@
 
 body {
     font-family: sans-serif;
+
     background-color: black;
 
-    height: 100vh;
+    /* height: 700vh; */
 
     /* border: 5px dashed white; */
 }
@@ -16,8 +17,9 @@ body {
 /* HEADER */
 
 header {
-    background-color: black;
     height: 50px;
+
+    z-index: 1;
 }
 
 #flex {
@@ -42,21 +44,20 @@ header {
 
 main {
     /* border: 10px red solid; */
+    /* background-color: yellow; */
 
-    height: 70vh;
-
+    margin-top: 30px;
+    margin-bottom: 100px;
+    height: 100vh;
 }
-
-
 
 #container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
 
-
-    margin: 0 auto;
-    padding: 10px;
+    margin: 40 auto;
+    padding: 5px;
 
     gap: 5px;
 
@@ -71,7 +72,6 @@ main {
 
 .row {
     width: 100%;
-    height: ;
 }
 
 .pokemon {
@@ -85,3 +85,34 @@ main {
 
     border: none;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: #222222;
+    color: white;
+   
+    border: 1px solid white;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 15px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.footer-nav .left .micro-video {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid green; */
+    padding: 10px;
+}
+
+footer.nav {
+    justify-content: center;
+}
+
