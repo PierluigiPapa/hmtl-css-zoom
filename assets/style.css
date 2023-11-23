@@ -93,27 +93,56 @@ footer {
     color: white;
    
     border: 1px solid white;
+} 
+
+.flex-footer {
+    display: flex;
 }
 
-#footer-nav {
+.flex-left {
     display: flex;
-    justify-content: flex-start;
-    padding: 10px 15px;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 
-
-#footer-nav .left .micro-video {
-    display: flex;
-    flex-direction: row;
-    /* border: 1px solid green; */
+.flex-left .micro-left,
+.video-left {
+    align-items: center;
     padding: 10px;
 }
 
-#footer-nav .left .micro-video .text{
-    flex-direction: column;
+.flex-center {
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    align-items: center;
+    /* width: 1000px; */
+    margin: 0 auto;
 }
 
+.flex-center .invite,
+.group,
+.pool,
+.screen,
+.chat,
+.record,
+.rooms,
+.more {
+    padding: 15px;
+    gap: 50px;
+}
 
+.flex-right {
+    display: flex;
+}
+
+.flex-right .right {
+   justify-content: end;
+   padding: 10px;
+
+   background-color: rgb(74, 74, 74);
+   color: red;
+}
+
+.end {
+    text-align: center;
+    padding: 10px;
+}
